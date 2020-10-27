@@ -7,13 +7,6 @@ const description=document.querySelector('.info h3');
 const sizes=document.querySelector('.sizes');
 const watch=document.querySelector('.watch img');
 
-
-
-
-
-
-
-
 container.addEventListener("mousemove",(e)=>{
    let xAxis = (window.innerWidth / 2 -e.pageX)/25;
    let yAxis = (window.innerHeight / 2-e.pageY)/25;
